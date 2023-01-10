@@ -131,11 +131,11 @@ if __name__=="__main__":
     siralatime=(time.time() - (start_time))
     #print("sirala ornek_array: ",ornek_array)
     print("Siralama fonksiyon çalışma süresi   --- %s seconds ---" , (time.time() - (start_time)))
-    mergeSort(s_array)
+    #mergeSort(s_array)
     #print("merge ornek array: ",ornek_array)
     print("Merge fonksiyon çalışma süresi --- %s seconds ---" , (time.time() - (start_time))-siralatime) #kodumun çalışma süresini yazdırmak için kullanıyorum
     quicktime=(time.time() - (start_time))
     size = len(ornek_array)
-    #quickSort(s_array, 0, size - 1)
+    quickSort(s_array, 0, size - 1)
     print("QuickShort fonksiyon çalışma süresi --- %s seconds ---" , (time.time() - (start_time))-quicktime) #kodumun çalışma süresini yazdırmak için kullanıyorum
     #print(ornek_array)
