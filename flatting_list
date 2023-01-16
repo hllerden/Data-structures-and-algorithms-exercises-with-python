@@ -1,3 +1,4 @@
+#Source `https://stackabuse.com/python-how-to-flatten-list-of-lists/`
 l=[[1,'a',['cat'],2],[[[3]],'dog'],4,5]
 print("eski hali:",l)
 
