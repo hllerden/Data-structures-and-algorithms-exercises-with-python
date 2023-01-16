@@ -1,4 +1,5 @@
 #Source `https://stackabuse.com/python-how-to-flatten-list-of-lists/`
+
 l=[[1,'a',['cat'],2],[[[3]],'dog'],4,5]
 print("eski hali:",l)
 
@@ -11,3 +12,10 @@ def flatten(list_of_lists):
 
 
 print("yeni hali:",flatten(l))
+
+
+l2=[[1, 2], [3, 4], [5, 6, 7]]
+print("liste 2 eski hali:",l2)
+
+def reverse_list(list):
+    
