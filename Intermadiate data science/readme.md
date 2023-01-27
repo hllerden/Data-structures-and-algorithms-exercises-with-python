@@ -1,0 +1,1 @@
+## Bu dosyada orta seviye veri bilimine girişte yaptığım alıştırmaları ve uygulamaları barındıracağım.
